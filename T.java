@@ -13,9 +13,13 @@ public class T
 		b =(byte) k;
 		i = (int)j;
 		
-		System.out.println(i);
 		
-		System.out.println(b);
+		int[] a = new int[]{10,5,78,9,32,24};
 		
+		for(i = 0 ; i<a.length;i++)
+		{
+			System.out.println(a[i]);
+		}
+				
 	}
 }
